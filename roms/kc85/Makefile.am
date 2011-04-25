@@ -27,6 +27,7 @@ ROMS = \
 	floppy30.rom \
 	floppy31.rom \
 	floppy32.rom \
+	floppy33.rom \
 	vdip12.rom \
 	vdip21.rom \
 	m006.rom \

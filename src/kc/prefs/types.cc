@@ -606,12 +606,14 @@ SystemInformation::SystemInformation(void) {
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL)
         .add_rom(SystemROM::ROM_KEY_D004_F8, 0x2000, 3,
                  "floppy20.rom", _("D004 Version 2.0 (02.01.1989)"),
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL);
     /*
      *  KC 85/3
@@ -634,12 +636,14 @@ SystemInformation::SystemInformation(void) {
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
-                 NULL)
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
+                NULL)
         .add_rom(SystemROM::ROM_KEY_D004_F8, 0x2000, 3,
                  "floppy20.rom", _("D004 Version 2.0 (02.01.1989)"),
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL);
     /*
      *  KC 85/4
@@ -663,12 +667,14 @@ SystemInformation::SystemInformation(void) {
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL)
         .add_rom(SystemROM::ROM_KEY_D004_F8, 0x2000, 3,
                  "floppy20.rom", _("D004 Version 2.0 (02.01.1989)"),
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL);
     /*
      *  KC 85/5
@@ -697,12 +703,14 @@ SystemInformation::SystemInformation(void) {
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL)
         .add_rom(SystemROM::ROM_KEY_D004_F8, 0x2000, 0,
                  "floppy20.rom", _("D004 Version 2.0 (02.01.1989)"),
                  "floppy30.rom", _("D004 Version 3.0 (07.12.1997)"),
                  "floppy31.rom", _("D004 Version 3.1 (22.01.2003)"),
                  "floppy32.rom", _("D004 Version 3.2 (28.10.2008)"),
+                 "floppy33.rom", _("D004 Version 3.3 (13.03.2011)"),
                  NULL);
     /*
      *  Polycomputer 880
