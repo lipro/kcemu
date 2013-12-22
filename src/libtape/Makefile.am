@@ -15,10 +15,8 @@ noinst_PROGRAMS = show_tap kcread2tap
 noinst_LIBRARIES = libtape.a
 
 AM_CPPFLAGS = \
+	-I../../include \
 	-DDEBUG -DLINUX
-
-INCLUDES = \
-	-I../../include
 
 libtape_a_SOURCES = \
 	kct.cc
@@ -34,6 +32,11 @@ kcread2tap_SOURCES = \
 
 kctape_LDADD = \
 	libtape.a ../fileio/libfileio.a ../libdbg/libdbg.a $(GETOPTLIB) $(INTLLIBS)
+
+CLEANFILES = \
+	testfile.1 \
+	testfile.2 \
+	test.kct
 
 check:
 	rm -f test.kct testfile.1 testfile.2

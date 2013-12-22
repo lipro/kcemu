@@ -1,11 +1,11 @@
 ## Process this file with automake to produce Makefile.in
 
-noinst_LIBRARIES = libsys_linux.a
+noinst_LIBRARIES = libsys_unix.a
 
-INCLUDES = \
+AM_CPPFLAGS = \
 	-I../../../include
 
-libsys_linux_a_SOURCES = \
+libsys_unix_a_SOURCES = \
 	sys_usleep.c \
 	sys_basename.c \
 	sys_isabsolutepath.c \
